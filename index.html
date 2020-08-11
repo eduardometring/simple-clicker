@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+  <head>
+    <title>Clicker Simples</title>
+  </head>
+  <meta charset="utf8">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./jooj.js"></script>
+  <body onload="startScreen()">
+    <center>
+      <button class="grow" onmouseup="getCookies()">
+        Obter cookies 🍪
+      </button>
+      <br>
+      <button class="grow" onmouseup="buyGrandma()"> 
+        Comprar vovós 👵
+      </button>
+      <button class="grow" onmouseup="clickUpgrade()">
+        Upgrade de clicks 🖱️
+      </button>
+      <button class="grow" onmouseup="buyGrandpa()">
+        Comprar vovôs 👴
+      </button>
+      <button class="grow" onmouseup="autoClick()">
+        Auto clicker ⚡
+      </button>
+      <button class="grow" onmouseup="buyRobot()">
+        Comprar Robôs 🤖
+      </button>
+      <div id="game"><p class="lol"></p></div>
+      <div id="grandmaCost" style="font: bold 50px Arial">
+        Custo pra comprar vovó: 10 <br>
+      </div>
+      <div style="font: bold 53px Arial" id="clickUpgradeCost"></div>
+      <div id="clickPower"></div>
+      <div id="grandpaCost" style="font: bold 53px Arial"></div>
+      <div id="grandpaAmmount" style="font: bold 53px Arial"></div>
+      <div id="acCost" style="font: bold 53px Arial"></div>
+      <div id="acAmount" style="font: bold 53px Arial"></div>
+      <div id="robotCost" style="font: bold 53px Arial"></div>
+      <div id="robotAmount" style="font: bold 53px Arial"></div>
+     </center>
+  </body>
+</html>
