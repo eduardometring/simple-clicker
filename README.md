@@ -1,1 +1,3 @@
-Resolvi não colocar a parte do CSS aqui (nesse repositório) para que você possa ter mais liberdade na hora de criar o estilo da sua versão do jogo
+ So, if you are seeing this and you are an intermediate or advanced programmer, I know, our programming isn't really that good and I know that. I'm always trying to improve!
+ Ok our programming is actually good it's just that Rob Boss (Rob-Boss01) is really lazy lol
+ Rob Boss: yeah im really laazy
