@@ -125,19 +125,19 @@
     setInterval(() => {
       document.getElementById("game").innerHTML = "   " + cookies + "🍪"; //
       document.getElementById("grandmaCost").innerHTML =
-        "Custo para comprar uma vovó: " +
+        "Cookies to buy grandma: " +
         cookiesToBuyGrandma +
-        "🍪. ⠀⠀⠀⠀⠀⠀⠀⠀Quantidade de vovós: " +
+        "🍪. ⠀⠀⠀⠀⠀⠀⠀⠀Grandmas: " +
         grandmas + //
         "👵. ⠀⠀⠀⠀⠀⠀⠀";
       document.getElementById("clickPower").innerHTML =
-        "Cookies por clique: " + gainPerClick + "🖱️.";
+        "Cookies per click: " + gainPerClick + "🖱️.";
       document.getElementById("clickUpgradeCost").innerHTML =
-        "Custo do upgrade de clicks: " + gpcCost + " 🍪.";
-      document.getElementById("grandpaCost").innerHTML = "Custo de um vovô: " + cookiesToBuyGrandpa + "🍪."; 
-      document.getElementById("grandpaAmmount").innerHTML = "Quantidade de vovôs: " + grandpas + "👴.";
-      document.getElementById("acCost").innerHTML = "Custo de um auto clicker: " + acCost+"🍪.";
-      document.getElementById("acAmount").innerHTML = "Nível do auto clicker: " + autoClicks+"⚡.";
-      document.getElementById("robotCost").innerHTML = "Custo de um robô: " +cookiesToBuyRobot+"🍪.";
-      document.getElementById("robotAmount").innerHTML = "Quntidade de Robôs: " +robots+"🤖.";
+        "Cookies to upgrade click: " + gpcCost + " 🍪.";
+      document.getElementById("grandpaCost").innerHTML = "Cookies to buy grandpa: " + cookiesToBuyGrandpa + "🍪."; 
+      document.getElementById("grandpaAmmount").innerHTML = "Grandpas: " + grandpas + "👴.";
+      document.getElementById("acCost").innerHTML = "Cookies to buy auto clicker: " + acCost+"🍪.";
+      document.getElementById("acAmount").innerHTML = "Auto Clicker - Level: " + autoClicks+"⚡.";
+      document.getElementById("robotCost").innerHTML = "Cookies to buy robot: " +cookiesToBuyRobot+"🍪.";
+      document.getElementById("robotAmount").innerHTML = "Robots: " +robots+"🤖.";
     }, 1); 
